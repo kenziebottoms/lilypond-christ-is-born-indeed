@@ -8,6 +8,8 @@
 
 Transcribed with [LilyPond](http://lilypond.org/)
 
+To run build script, press Ctrl+Shift+B.
+
 ---
 
 ## Thanks to
