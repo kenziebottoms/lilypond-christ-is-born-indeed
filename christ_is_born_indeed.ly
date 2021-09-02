@@ -16,7 +16,7 @@
       \repeat unfold 4 { R2. }
       \break
       
-      r8 bes4 bes bes8~
+      r8\f bes4 bes bes8~
       bes8 bes8 bes4 b4
       ges2 r4
       r8 e4~ e8 b'4
@@ -45,6 +45,23 @@
       \repeat unfold 4 { g8-.[ d'-.] r }
       \repeat unfold 4 { g,8-. d'-. a }
       \repeat unfold 5 { g8-.[ d'-.] r }
+    }
+
+    \new Staff \with {
+      instrumentName = "Violin"
+      shortInstrumentName = "Vl."
+      midiInstrument = #"violin"
+    } \relative c'' {
+      \repeat unfold 4 { R2. }
+      <g d>2.->\ppp~
+      <g d>2 r4
+      <g d>2.->~
+      <g d>4. r4.
+      <g d>2.->~
+      <g d>2 r4
+      <g d>2.~
+      <g d>4.(
+      g'2.)
     }
   >>
 
