@@ -63,6 +63,16 @@
       <g d>4.(
       g'2.)
     }
+
+    \new DrumStaff \with {
+      instrumentName = "High Hat"
+    } \drummode {
+      \repeat unfold 4 { R2. }
+
+      r8 hihat8 hh hh hh16 hh hh8
+
+      hh8 hh8 openhihat closedhihat hh16 hh hh hh
+    }
   >>
 
   \layout {}
