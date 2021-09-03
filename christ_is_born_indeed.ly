@@ -70,15 +70,28 @@
       \repeat unfold 4 { R2. }
 
       % 5
-      r8 hihat8 hh[ hh] hh16 hh hh8
+      r8 hihat8[ hh hh] hh16 hh hh8
       % 6
-      hh8[ hh8] openhihat[ closedhihat] hh16[ hh hh hh]
+      hh8[ hh8] openhihat[ hh] hh16[ hh hh hh]
       % 7
-      openhihat8.[ closedhihat16] hh8[ openhihat]
-      \repeat unfold 3 { closedhihat[ openhihat] }
-      closedhihat16 hh hh8
+      openhihat8.[ hh16 hh8] openhihat
+      \repeat unfold 3 { hh[ openhihat] }
+      hh16 hh hh8
+      % 9
+      openhihat8[ hh16 hh hh8] openhihat hh openhihat
+      % 10
+      hh8[ openhihat hh8 openhihat] hh16[ hh hh8]
+      % 11
+      hh[ hh16 hh hh8] openhihat[ hh16 hh16] hh8
+      % 12
+      openhihat r8. hh32 hh
+
       % 13
-      \repeat unfold 2 { openhihat8[ closedhihat16 hh] }
+      openhihat8[ hh8 hh hh ] hh16 hh hh8
+      % 14
+      openhihat8[ hh16 hh hh8] hh[ hh16 hh hh8]
+      % 15
+      openhihat[ hh]
     }
   >>
 
