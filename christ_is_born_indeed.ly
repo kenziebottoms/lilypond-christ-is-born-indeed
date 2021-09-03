@@ -15,22 +15,26 @@
       \time 6/8
       \repeat unfold 4 { R2. }
       \break
-      
+      % 5
       r8\f bes4 bes bes8~
       bes8 bes8 bes4 b4
       ges2 r4
       r8 e4~ e8 b'4
       \break
-
+      % 9
       e,2 r4
       \repeat unfold 3 { r8 fis16( g-.) }
       r8 fis16([ g] b8-.[) fis16( g] b8-.[) fis16( g]
       \time 3/8
       b8-.)[ fis16( g] b8-.)
       \break
-      
+      % 13
       \time 6/8
-      \repeat unfold 2 { R2. }
+      \repeat unfold 5 { R2. }
+      % 18
+      r2 bes4
+      % 19
+      bes4
     }
 
     \new Staff \with {
@@ -42,9 +46,12 @@
       \time 6/8
       \repeat unfold 11 { g8-.[ d'-.] r }
       \repeat unfold 4 { g,8-. d'-. a }
+      % 9
       \repeat unfold 4 { g8-.[ d'-.] r }
       \repeat unfold 4 { g,8-. d'-. a }
-      \repeat unfold 5 { g8-.[ d'-.] r }
+      % 13
+      \repeat unfold 4 { g8-.[ d'-.] r }
+      \repeat unfold 6 { g,8-. d'-. a }
     }
 
     \new Staff \with {
@@ -53,22 +60,34 @@
       midiInstrument = #"violin"
     } \relative c'' {
       \repeat unfold 4 { R2. }
+      % 5
       <g d>2.->\ppp~
       <g d>2 r4
       <g d>2.->~
       <g d>4. r4.
+      % 9
       <g d>2.->~
       <g d>2 r4
       <g d>2.~
       <g d>4.(
-      g'2.)
+      % 13
+      <g d g'>2.)~
+      <g d g'>2.)
+      % 15
+      r4.
+      <g e g'>->~
+      <g e g'>2.~
+      \break
+      % 17
+      <g e g'>4.
+      <g ees g'>4.
+      <g d g'>2.)
     }
 
     \new DrumStaff \with {
       instrumentName = "High Hat"
     } \drummode {
       \repeat unfold 4 { R2. }
-
       % 5
       r8 hihat8[ hh hh] hh16 hh hh8
       % 6
@@ -85,7 +104,6 @@
       hh[ hh16 hh hh8] openhihat[ hh16 hh16] hh8
       % 12
       openhihat r8. hh32 hh
-
       % 13
       openhihat8[ hh8 hh hh ] hh16 hh hh8
       % 14
