@@ -69,9 +69,16 @@
     } \drummode {
       \repeat unfold 4 { R2. }
 
-      r8 hihat8 hh hh hh16 hh hh8
-
-      hh8 hh8 openhihat closedhihat hh16 hh hh hh
+      % 5
+      r8 hihat8 hh[ hh] hh16 hh hh8
+      % 6
+      hh8[ hh8] openhihat[ closedhihat] hh16[ hh hh hh]
+      % 7
+      openhihat8.[ closedhihat16] hh8[ openhihat]
+      \repeat unfold 3 { closedhihat[ openhihat] }
+      closedhihat16 hh hh8
+      % 13
+      \repeat unfold 2 { openhihat8[ closedhihat16 hh] }
     }
   >>
 
