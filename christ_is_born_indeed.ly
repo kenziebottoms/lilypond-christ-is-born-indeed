@@ -21,6 +21,7 @@
       ges2 r4
       r8 e4~ e8 b'4
       \break
+      
       % 9
       e,2 r4
       \repeat unfold 3 { r8 fis16( g-.) }
@@ -28,13 +29,24 @@
       \time 3/8
       b8-.)[ fis16( g] b8-.)
       \break
+      
       % 13
       \time 6/8
       \repeat unfold 5 { R2. }
       % 18
       r2 bes4
       % 19
-      bes4
+      bes4 bes bes~
+      % 20
+      bes4. b4 ges8~
+      
+      \break
+      % 21
+      ges4 R2
+      % 22
+      bes4. b
+      ges4
+      % 23
     }
 
     \new Staff \with {
@@ -45,13 +57,16 @@
       \clef treble
       \time 6/8
       \repeat unfold 11 { g8-.[ d'-.] r }
-      \repeat unfold 4 { g,8-. d'-. a }
+      \repeat unfold 4 { g,-. d'-. a }
       % 9
-      \repeat unfold 4 { g8-.[ d'-.] r }
-      \repeat unfold 4 { g,8-. d'-. a }
+      \repeat unfold 4 { g-.[ d'-.] r }
+      \repeat unfold 4 { g,-. d'-. a }
       % 13
-      \repeat unfold 4 { g8-.[ d'-.] r }
-      \repeat unfold 6 { g,8-. d'-. a }
+      \repeat unfold 4 { g-.[ d'-.] r }
+      \repeat unfold 6 { g,-. d'-. a }
+      g8-. r g-. r g-. r
+      \repeat unfold 6 { g-.[ d'-.] r }
+      \repeat unfold 6 { g,-. d'-. a }
     }
 
     \new Staff \with {
@@ -78,6 +93,7 @@
       <g e g'>->~
       <g e g'>2.~
       \break
+
       % 17
       <g e g'>4.
       <g ees g'>4.
@@ -109,7 +125,11 @@
       % 14
       openhihat8[ hh16 hh hh8] hh[ hh16 hh hh8]
       % 15
-      openhihat[ hh]
+      openhihat[ hh] hh[ hh] openhihat[ hh]
+      % 16
+      openhihat[ hh16 hh] openhihat8[ hh16 hh] hh8[ hh]
+      % 17
+      hh[ openhihat]
     }
   >>
 
