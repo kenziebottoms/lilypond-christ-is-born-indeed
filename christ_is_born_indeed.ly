@@ -109,17 +109,17 @@
       % 6
       hh8[ hh8] openhihat[ hh] hh16[ hh hh hh]
       % 7
-      openhihat8.[ hh16 hh8] openhihat
+      openhihat8.[ hh16] hh8[ openhihat]
       \repeat unfold 3 { hh[ openhihat] }
       hh16 hh hh8
       % 9
-      openhihat8[ hh16 hh hh8] openhihat hh openhihat
+      openhihat8[ hh16 hh hh8] openhihat[ hh] openhihat[
       % 10
-      hh8[ openhihat hh8 openhihat] hh16[ hh hh8]
+      hh8] openhihat[ hh8] openhihat[ hh16 hh hh8]
       % 11
-      hh[ hh16 hh hh8] openhihat[ hh16 hh16] hh8
+      hh[ hh16 hh hh8] openhihat[ hh16 hh16 hh8]
       % 12
-      openhihat r8. hh32 hh
+      openhihat r8 hh16 hh32 hh
       % 13
       openhihat8[ hh8 hh hh ] hh16 hh hh8
       % 14
@@ -127,9 +127,15 @@
       % 15
       openhihat[ hh] hh[ hh] openhihat[ hh]
       % 16
-      openhihat[ hh16 hh] openhihat8[ hh16 hh] hh8[ hh]
+      openhihat[ hh16 hh hh8] openhihat8[ hh16 hh hh8]
       % 17
-      hh[ openhihat]
+      hh[ hh hh openhihat] r8 hh16 hh32 hh
+      % 18
+      openhihat8[ hh16 hh hh8] hh[ openhihat] hh[ openhihat]
+      % 19
+      hh16[ hh hh hh] openhihat8[ hh16 hh openhihat8]
+      % 20
+      r8 openhihat[ hh] openhihat[ hh]
     }
   >>
 
