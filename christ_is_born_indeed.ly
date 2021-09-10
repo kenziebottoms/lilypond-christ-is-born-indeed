@@ -18,7 +18,7 @@
       % 5
       r8\f bes4 bes bes8~
       bes8 bes8 bes4 b4
-      ges2 r4
+      fis2 r4
       r8 e4~ e8 b'4
       \break
       
@@ -38,15 +38,16 @@
       % 19
       bes4 bes bes~
       % 20
-      bes4. b4 ges8~
-      
-      \break
+      bes2 b4
       % 21
-      ges4 R2
+      fis2 r4
       % 22
-      bes4. b
-      ges4
+      r8 e4. b'4
       % 23
+      e,4. r4.
+      % 24
+      r8 bes'4. fis4
+      \repeat unfold 3 { r8 fis16([ g]) }
     }
 
     \new Staff \with {
@@ -66,7 +67,8 @@
       \repeat unfold 6 { g,-. d'-. a }
       g8-. r g-. r g-. r
       \repeat unfold 6 { g-.[ d'-.] r }
-      \repeat unfold 6 { g,-. d'-. a }
+      \repeat unfold 5 { g,-. d'-. a }
+      \repeat unfold 2 { g-.[ d'-.] r }
     }
 
     \new Staff \with {
@@ -97,7 +99,8 @@
       % 17
       <g e g'>4.
       <g ees g'>4.
-      <g d g'>2.)
+      <g d g'>2.~
+      <g d g'>2.
     }
 
     \new DrumStaff \with {
@@ -135,7 +138,7 @@
       % 19
       hh16[ hh hh hh] openhihat8[ hh16 hh openhihat8]
       % 20
-      r8 openhihat[ hh] openhihat[ hh]
+      r8 openhihat[ hh] openhihat[ hh16 hh hh8]
     }
   >>
 
