@@ -47,6 +47,8 @@
       e,4. r4.
       % 24
       r8 bes'4. fis4
+      \break
+
       \repeat unfold 3 { r8 fis16([ g]) }
     }
 
@@ -68,7 +70,7 @@
       g8-. r g-. r g-. r
       \repeat unfold 6 { g-.[ d'-.] r }
       \repeat unfold 5 { g,-. d'-. a }
-      \repeat unfold 2 { g-.[ d'-.] r }
+      \repeat unfold 4 { g-.[ d'-.] r }
     }
 
     \new Staff \with {
@@ -139,6 +141,14 @@
       hh16[ hh hh hh] openhihat8[ hh16 hh openhihat8]
       % 20
       r8 openhihat[ hh] openhihat[ hh16 hh hh8]
+      % 21
+      openhihat8[ hh16 hh hh8] openhihat[ hh] openhihat[
+      % 22
+      hh] openhihat[ hh] openhihat[ hh16 hh hh8]
+      % 23
+      openhihat8[ hh16 hh hh8] openhihat[ hh] openhihat[
+      % 24
+      hh] openhihat[ hh] openhihat[ hh16 hh16 hh16 hh16]
     }
   >>
 
