@@ -4,7 +4,6 @@
   title = "Christ is Born Indeed"
 }
 
-
 \score {
   \new StaffGroup <<
     \new Staff \with {
@@ -54,12 +53,15 @@
       % 25
       \repeat unfold 3 { r8 fis16([ g]) }
       % 26
-      r8
-      \repeat unfold 6 { fis16([ g] b8-.[) }
-      fis16([ g]) gis2~
+      r8 fis16([ g] b8-.[) fis16( g] b8-.[) fis16( g]
+      % 27
+      b8-.[) fis16( g] b8-.[) fis16( g] b8-.[) fis16( g]
+      % 28
+      b8-.[) fis16( g]) gis2~(
       % 29
-      gis2( a4)
+      gis2 a4)
     }
+    % End Recorder
 
     \new Staff \with {
       instrumentName = "Flute"
@@ -82,6 +84,7 @@
       \repeat unfold 5 { g,-. d'-. a }
       \repeat unfold 4 { g-.[ d'-.] r }
     }
+    % End Flute
 
     \new Staff \with {
       instrumentName = "Violin"
@@ -102,19 +105,36 @@
       <g d>4.(
       % 13
       <g d g'>2.)~
-      <g d g'>2.)
+      <g d g'>2.
       % 15
       r4.
-      <g e g'>->~
-      <g e g'>2.~
+      <g e>->~
+      <g e>2.~
       \break
 
       % 17
-      <g e g'>4.
-      <g ees g'>4.
-      <g d g'>2.~
-      <g d g'>2.
+      <g e>4. <g ees>4.
+      % 18
+      <g d>2.~
+      % 19
+      <g d>2.
+
+      % 20
+      r4. <g e>4.~
+      % 21
+      <g e>4. r4.
+      % 22
+      r4. <fis d>4.~
+      % 23
+      <fis d> <f>~
+      % 24
+      <f> r
+      % 25
+      <dis' dis,>( <dis d,>
+      % 26
+      <d d,>)
     }
+    % End Violin
 
     \new DrumStaff \with {
       instrumentName = "High Hat"
@@ -166,6 +186,7 @@
       openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh hh]
       hh[ hh hh hh] openhihat4 r
     }
+    % End Hi Hat
   >>
 
   \layout {}
