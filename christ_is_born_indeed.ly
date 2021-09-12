@@ -149,6 +149,8 @@
       openhihat8[ hh16 hh hh8] openhihat[ hh] openhihat[
       % 24
       hh] openhihat[ hh] openhihat[ hh16 hh16 hh16 hh16]
+      % 25
+      hh8[ hh16 hh] hh8[ openhihat] openhihat openhihat
     }
   >>
 
