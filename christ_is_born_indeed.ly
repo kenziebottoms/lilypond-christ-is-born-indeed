@@ -4,6 +4,7 @@
   title = "Christ is Born Indeed"
 }
 
+
 \score {
   \new StaffGroup <<
     \new Staff \with {
@@ -11,6 +12,7 @@
       shortInstrumentName = "Rec."
       midiInstrument = #"recorder"
     } \relative c''' {
+      \key g \major
       \clef treble
       \time 6/8
       \repeat unfold 4 { R2. }
@@ -38,7 +40,7 @@
       % 19
       bes4 bes bes~
       % 20
-      bes2 b4
+      bes4 r b
       % 21
       fis2 r4
       % 22
@@ -46,10 +48,17 @@
       % 23
       e,4. r4.
       % 24
-      r8 bes'4. fis4
+      r8 a4. fis4
       \break
 
+      % 25
       \repeat unfold 3 { r8 fis16([ g]) }
+      % 26
+      r8
+      \repeat unfold 6 { fis16([ g] b8-.[) }
+      fis16([ g]) gis2~
+      % 29
+      gis2( a4)
     }
 
     \new Staff \with {
@@ -57,6 +66,7 @@
       shortInstrumentName = "Fl."
       midiInstrument = #"flute"
     } \relative c'' {
+      \key g \major
       \clef treble
       \time 6/8
       \repeat unfold 11 { g8-.[ d'-.] r }
@@ -78,6 +88,7 @@
       shortInstrumentName = "Vl."
       midiInstrument = #"violin"
     } \relative c'' {
+      \key g \major
       \repeat unfold 4 { R2. }
       % 5
       <g d>2.->\ppp~
