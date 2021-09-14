@@ -115,7 +115,25 @@
       \repeat unfold 6 { g-.[ d'-.] r }
       \repeat unfold 5 { g,-. d'-. a }
       \repeat unfold 3 { g-.[ d'-.] r }
-      \repeat unfold 4 { g,-.[ d'-. a] }
+      % 26
+      \repeat unfold 2 { g,-.[ d'-. a] }
+      % 27
+      R1 * 8/8
+      \break
+
+      % 28
+      R1 * 6/8 * 8
+      \break
+      
+      % 36
+      dis8-.[ d-.] r2
+      % 37
+      r4. bes8-.[ a-.] r
+      % 38
+      a8-.[ bes-.] r bes-.[ a-.] r
+      % 39
+      a8-.[ bes-.] bes8-.[ a-.] bes8-.[ a-.]
+      \repeat unfold 6 { g8-.[ d'-.] r }
     }
     % End Flute
 
