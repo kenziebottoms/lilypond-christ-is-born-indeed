@@ -192,10 +192,40 @@
       hh8[ hh16 hh] openhihat8[ hh] openhihat openhihat
       openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh8]
       openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh hh]
-      hh[ hh hh hh] openhihat4 r
+      hh[ hh hh hh] openhihat4 r2
     }
     % End Hi Hat
+    
+    \new DrumStaff \with {
+      instrumentName = "Woodblock"
+      shortInstrumentName = "Wb."
+    } \drummode {
+      R1 * 6/8 * 11
+      % 12
+      R1 * 3/8
+      % 13
+      R1 * 6/8 * 14
+      % 27
+      R1 * 8/8
+      % 28
+      wbl8->[ wbl16 wbl wbl8] wbl-> wbl wbl
+      % 29
+      wbl->[ wbl16 wbl wbl wbl] wbl8-> wbl16 wbl wbl wbl
+      % 30
+      wbl8->[ wbl wbl->] wbl[ wbl16 wbl16 wbl8]
+      % 31
+      wbl->[ wbl16 wbl wbl8] wbl->[ wbl16 wbl wbl wbl]
+      \break
+
+      % 32
+      wbl8->[ wbl wbl] wbl->[ wbl16 wbl wbl8]
+      % 33
+      wbl->[ wbl wbl->] wbl[ wbl-> wbl]
+      wbl->[ wbl16 wbl wbl8] wbl->[ wbl wbl]
+    }
+    % End Toms
   >>
+
 
   \layout {}
   \midi {
