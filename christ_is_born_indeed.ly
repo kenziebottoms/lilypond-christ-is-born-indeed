@@ -63,10 +63,26 @@
       \time 6/8
       gis2.(
       % 29
-      a2) a16 a a a
+      a2) a16-. a-. a-. a-.
       % 30
-      r8 bes4. a4
-    }
+      r8 bes4.( a4)
+      % 31
+      r8 \grace c8( bes4. a4)
+      \break
+      
+      % 32
+      r8 b4.( bes4)
+      % 33
+      r8 \grace { b16( c } b4. bes4)
+      % 34
+      r8 b r b8 r bes
+      % 35
+      r bes r bes r f16-. bes-.
+      \break
+
+      % 36
+      c2 c16-. c-. c-. c-.
+    } 
     % End Recorder
 
     \new Staff \with {
@@ -227,8 +243,16 @@
       % 32
       wbl8->[ wbl wbl] wbl->[ wbl16 wbl wbl8]
       % 33
-      wbl->[ wbl wbl->] wbl[ wbl-> wbl]
-      wbl->[ wbl16 wbl wbl8] wbl->[ wbl wbl]
+      wbl8->[ wbl wbl->] wbl[ wbl-> wbl]
+      % 34
+      wbl8->[ wbl16 wbl wbl8] wbl->[ wbl wbl]
+      % 35
+      wbl8->[ wbl16 wbl wbl wbl] wbl8->[ wbl16 wbl wbl wbl]
+      \break
+
+      % 36
+      \repeat unfold 5 { wbl8->[ wbl16 wbl wbl8] }
+      wbl8->[ wbl16 wbl wbl wbl]
     }
     % End Toms
   >>
