@@ -82,6 +82,16 @@
 
       % 36
       c2 c16-. c-. c-. c-.
+      % 37
+      r4 cis8 r cis r
+      % 38
+      \grace { c16( cis } c8) r cis8 r cis r
+      % 39
+      \grace { c16( cis } c8) r c r cis r
+      \break
+      
+      % 40
+      d2.
     } 
     % End Recorder
 
@@ -253,6 +263,8 @@
       % 36
       \repeat unfold 5 { wbl8->[ wbl16 wbl wbl8] }
       wbl8->[ wbl16 wbl wbl wbl]
+      % 39
+      wbl16[-> wbl wbl wbl] wbl->[ wbl wbl wbl] wbl[-> wbl wbl wbl]
     }
     % End Toms
   >>
