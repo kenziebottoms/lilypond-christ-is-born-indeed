@@ -190,9 +190,16 @@
       hh] openhihat[ hh] openhihat[ hh16 hh16 hh16 hh16]
       % 25
       hh8[ hh16 hh] openhihat8[ hh] openhihat openhihat
+      % 26
       openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh8]
-      openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh hh]
-      hh[ hh hh hh] openhihat4 r2
+      % 27
+      openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh hh] hh[ hh hh hh]
+      \break
+
+      % 28
+      openhihat4 r2
+      % 29
+      R1 * 6/8 * 3
     }
     % End Hi Hat
     
