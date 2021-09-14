@@ -55,11 +55,17 @@
       % 26
       r8 fis16([ g] b8-.[) fis16( g] b8-.[) fis16( g]
       % 27
-      b8-.[) fis16( g] b8-.[) fis16( g] b8-.[) fis16( g]
+      \time 8/8
+      b8-.[) fis16( g] b8-.[) fis16( g] b8-.[) fis16( g] b8-.[) fis16( g])
+      \break
+
       % 28
-      b8-.[) fis16( g]) gis2~(
+      \time 6/8
+      gis2.(
       % 29
-      gis2 a4)
+      a2) a16 a a a
+      % 30
+      r8 bes4. a4
     }
     % End Recorder
 
@@ -82,7 +88,8 @@
       g8-. r g-. r g-. r
       \repeat unfold 6 { g-.[ d'-.] r }
       \repeat unfold 5 { g,-. d'-. a }
-      \repeat unfold 4 { g-.[ d'-.] r }
+      \repeat unfold 3 { g-.[ d'-.] r }
+      \repeat unfold 4 { g,-.[ d'-. a] }
     }
     % End Flute
 
@@ -138,6 +145,7 @@
 
     \new DrumStaff \with {
       instrumentName = "High Hat"
+      shortInstrumentName = "HH."
     } \drummode {
       \repeat unfold 4 { R2. }
       % 5
