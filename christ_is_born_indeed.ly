@@ -24,6 +24,7 @@
       shortInstrumentName = "Rec."
       midiInstrument = #"recorder"
     } \relative c''' {
+      \override Score.BarNumber.break-visibility = ##(#f #t #t)
       \key g \major
       \clef treble
       \time 6/8
@@ -153,6 +154,61 @@
       \repeat unfold 6 { g8-.[ d'-.] r }
     }
     % End Flute
+
+    \new Staff \with {
+      instrumentName = "Alto Flute"
+      shortInstrumentName = "A.Fl."
+      midiInstrument = #"flute"
+    } \relative c' {
+      R1 * 6/8 * 4
+      % 5
+      d2.~
+      d4. r
+      % 7
+      d2.->~
+      d4. r
+
+      % 9
+      d2.->~
+      d4. r
+      % 11
+      d2.~
+
+      % 12
+      \time 3/8
+      d4.~
+      
+      % 13
+      \time 6/8
+      d2.~
+      d4. r
+      % 15
+      r4. e4.->~
+      e2.~
+
+      % 17
+      e4.( ees
+      d2.)~
+      % 19
+      d4. r
+      r e4.~
+      e4. r
+      r d4.~
+      d4. f~
+      f4. r
+
+      % 25
+      dis4.( d
+      d2.)~
+
+      % 27
+      \time 8/8
+      d4.( dis4. d4)~
+
+      % 28
+      d4.( dis)~
+      dis4.( e)
+    }
 
     \new Staff \with {
       instrumentName = "Violin"
