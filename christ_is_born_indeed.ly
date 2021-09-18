@@ -160,23 +160,9 @@
       shortInstrumentName = "A.Fl."
       midiInstrument = #"flute"
     } \relative c' {
-      R1 * 6/8 * 4
-      % 5
-      d2.~
-      d4. r
-      % 7
-      d2.->~
-      d4. r
-
-      % 9
-      d2.->~
-      d4. r
-      % 11
-      d2.~
-
+      R1 * 6/8 * 11
       % 12
-      \time 3/8
-      d4.~
+      R1 * 3/8
       
       % 13
       \time 6/8
