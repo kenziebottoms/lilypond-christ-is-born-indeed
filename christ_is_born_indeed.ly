@@ -25,12 +25,16 @@
       midiInstrument = #"recorder"
     } \relative c''' {
       \override Score.BarNumber.break-visibility = ##(#f #t #t)
+      \set Score.markFormatter = #format-mark-box-alphabet
+
       \key g \major
       \clef treble
       \time 6/8
       \repeat unfold 4 { R2. }
       \break
-      % 5
+
+      % 5 // A
+      \mark \default
       r8\f bes4 bes bes8~
       bes8 bes8 bes4 b4
       fis2 r4
@@ -45,10 +49,13 @@
       b8-.)[ fis16( g] b8-.)
       \break
       
-      % 13
+      % 13 // B
+      \mark \default
       \time 6/8
       \repeat unfold 5 { R2. }
-      % 18
+
+      % 18 // C
+      \mark \default
       r2 bes4
       % 19
       bes4 bes bes~
@@ -73,7 +80,8 @@
       b8-.[) fis16( g] b8-.[) fis16( g] b8-.[) fis16( g] b8-.[) fis16( g])
       \break
 
-      % 28
+      % 28 // D
+      \mark \default
       \time 6/8
       gis2.(
       % 29
@@ -104,8 +112,10 @@
       \grace { c16( cis } c8) r c r cis r
       \break
       
-      % 40
+      % 40 // E
+      \mark \default
       d2.
+      r2.
     } 
     % End Recorder
 
@@ -122,7 +132,8 @@
       % 9
       \repeat unfold 4 { g-.[ d'-.] r }
       \repeat unfold 4 { g,-. d'-. a }
-      % 13
+
+      % 13 // B
       \repeat unfold 4 { g-.[ d'-.] r }
       \repeat unfold 6 { g,-. d'-. a }
       g8-. r g-. r g-. r
@@ -135,7 +146,7 @@
       R1 * 8/8
       \break
 
-      % 28
+      % 28 // D
       b8-. a-. r bes-. a-. r
       % 29
       r2.
@@ -151,6 +162,8 @@
       a8-.[ bes-.] r bes-.[ a-.] r
       % 39
       a8-.[ bes-.] bes8-.[ a-.] bes8-.[ a-.]
+
+      % 40 // E
       \repeat unfold 6 { g8-.[ d'-.] r }
     }
     % End Flute
@@ -164,7 +177,7 @@
       % 12
       R1 * 3/8
       
-      % 13
+      % 13 // B
       \time 6/8
       d2.~
       d4. r
@@ -174,6 +187,7 @@
 
       % 17
       e4.( ees
+      % 18 // C
       d2.)~
       % 19
       d4. r
@@ -191,7 +205,7 @@
       \time 8/8
       d4.( dis4. d4)~
 
-      % 28
+      % 28 // D
       d4.( dis)~
       dis4.( e)
     }
@@ -203,17 +217,18 @@
     } \relative c'' {
       \key g \major
       \repeat unfold 4 { R2. }
-      % 5
-      <g d>2.->\ppp~
-      <g d>2 r4
+      % 5 // A
+      <g d>2.->\pppp~
+      <g d>4. r
       <g d>2.->~
-      <g d>4. r4.
+      <g d>4. r
       % 9
       <g d>2.->~
-      <g d>2 r4
+      <g d>4. r
       <g d>2.~
       <g d>4.(
-      % 13
+
+      % 13 // B
       <g d g'>2.)~
       <g d g'>2.
       % 15
@@ -224,7 +239,7 @@
 
       % 17
       <g e>4. <g ees>4.
-      % 18
+      % 18 // C
       <g d>2.~
       % 19
       <g d>2.
@@ -240,7 +255,7 @@
       % 24
       <f> r
       % 25
-      <dis' dis,>( <dis d,>
+      <dis' dis,>2.(
       % 26
       <d d,>)
     }
@@ -251,7 +266,7 @@
       shortInstrumentName = "HH."
     } \drummode {
       \repeat unfold 4 { R2. }
-      % 5
+      % 5 // A
       r8 hihat8[ hh hh] hh16 hh hh8
       % 6
       hh8[ hh8] openhihat[ hh] hh16[ hh hh hh]
@@ -267,7 +282,8 @@
       hh[ hh16 hh hh8] openhihat[ hh16 hh16 hh8]
       % 12
       openhihat r8 hh16 hh32 hh
-      % 13
+
+      % 13 // B
       openhihat8[ hh8 hh hh ] hh16 hh hh8
       % 14
       openhihat8[ hh16 hh hh8] hh[ hh16 hh hh8]
@@ -277,7 +293,8 @@
       openhihat[ hh16 hh hh8] openhihat8[ hh16 hh hh8]
       % 17
       hh[ hh hh openhihat] r8 hh16 hh32 hh
-      % 18
+
+      % 18 // C
       openhihat8[ hh16 hh hh8] hh[ openhihat] hh[ openhihat]
       % 19
       hh16[ hh hh hh] openhihat8[ hh16 hh openhihat8]
@@ -299,7 +316,7 @@
       openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh hh] hh[ hh hh hh]
       \break
 
-      % 28
+      % 28 // D
       openhihat4 r2
       % 29
       R1 * 6/8 * 3
@@ -313,8 +330,10 @@
       R1 * 6/8 * 11
       % 12
       R1 * 3/8
-      % 13
+      
+      % 13 // B
       R1 * 6/8 * 14
+      
       % 27
       R1 * 8/8
       % 28
