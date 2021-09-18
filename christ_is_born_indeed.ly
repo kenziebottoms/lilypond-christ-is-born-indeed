@@ -203,11 +203,34 @@
 
       % 27
       \time 8/8
-      d4.( dis4. d4)~
+      d4. dis4. d4~
 
       % 28 // D
-      d4.( dis)~
-      dis4.( e)
+      d4. dis~
+      % 29
+      dis4. e~
+      % 30
+      e f~
+      % 31
+      f fis~
+
+      % 32
+      fis g~
+      g fis~
+      fis f~
+      f e~
+
+      % 36
+      e dis~
+      dis d~
+      d dis~
+      dis d~
+
+      % 40 // E
+      d2.
+      r4. d~
+      d2.~
+      d4. e
     }
 
     \new Staff \with {
