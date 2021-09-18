@@ -1,10 +1,23 @@
 \version "2.20.0"  % necessary for upgrading to future LilyPond versions.
 
+#(set-default-paper-size "b4")
+
 \header{
   title = "Christ is Born Indeed"
 }
 
 \score {
+  \layout {
+    \context {
+      \RemoveEmptyStaffContext
+      \override VerticalAxisGroup.remove-first = ##t
+    }
+  }
+
+  \midi {
+    \tempo 4 = 128
+  }
+
   \new StaffGroup <<
     \new Staff \with {
       instrumentName = "Recorder"
@@ -290,10 +303,4 @@
     }
     % End Toms
   >>
-
-
-  \layout {}
-  \midi {
-    \tempo 4 = 128
-  }
 }
