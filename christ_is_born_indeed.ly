@@ -142,15 +142,19 @@
       \repeat unfold 3 { g-.[ d'-.] r }
       % 26
       \repeat unfold 4 { g,-.[ d'-. a] }
-      g-. r
+      g-. r 
       \break
 
       % 28 // D
       b8-. a-. r bes-. a-. r
       % 29
-      r2.
+      bes-. a-. r bes-. b-. r
       % 30
-      R1 * 6/8 * 6
+      b-. c-. r bes-. b-. r 
+      % 21
+      bes-. b-. r b-. c-. r
+      % 32
+      R1 * 6/8 * 4
       \break
       
       % 36
