@@ -182,7 +182,7 @@
       
       % 13 // B
       \time 6/8
-      d2.~
+      d2.~\ppp
       d
       % 15
       r4. e4.->~
@@ -250,7 +250,7 @@
       \key g \major
       \repeat unfold 4 { R2. }
       % 5 // A
-      <g d>2.->\pppp~
+      <g d>2.->\ppppp~
       <g d>4. r
       <g d>2.->~
       <g d>4. r
@@ -258,12 +258,24 @@
       <g d>2.->~
       <g d>4. r
       <g d>2.~
-      <g d>4.(
+      % 12
+      \time 3/8
+      <g d>4.
 
       % 13 // B
-      <g d g'>2.)~
-      % 14
-      <g d g'>
+      <<
+        \relative {
+          \stemUp g''4.\ppppp d8 g4~
+          % 14
+          g2.
+        }
+        \\
+        \relative {
+          <g' d>2._~
+          % 14
+          <g d>2.
+        }
+      >>
       % 15
       r4.
       <g e>->~
