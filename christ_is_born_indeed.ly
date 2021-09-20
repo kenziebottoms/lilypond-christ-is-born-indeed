@@ -180,7 +180,7 @@
       % 13 // B
       \time 6/8
       d2.~
-      d4. r
+      d
       % 15
       r4. e4.->~
       e2.~
@@ -190,11 +190,17 @@
       % 18 // C
       d2.)~
       % 19
-      d4. r
-      r e4.~
-      e4. r
-      r d4.~
+      d2.
+      % 20
+      r4. e~
+      
+      % 21
+      e2.
+      % 22
+      r4. d4.~
+      % 23
       d4. f~
+      % 24
       f4. r
 
       % 25
@@ -254,7 +260,7 @@
       % 13 // B
       <g d g'>2.)~
       % 14
-      <g d g'>4. r
+      <g d g'>
       % 15
       r4.
       <g e>->~
@@ -266,12 +272,12 @@
       % 18 // C
       <g d>2.~
       % 19
-      <g d>4. r
+      <g d>2.
 
       % 20
       r4. <g e>~
       % 21
-      <g e>4. r4.
+      <g e>2.
       % 22
       r4. <fis d>4.~
       % 23
@@ -291,7 +297,7 @@
     } \drummode {
       \repeat unfold 4 { R2. }
       % 5 // A
-      r8 hihat8[ hh hh] hh16 hh hh8
+      r8\p hihat8[ hh hh] hh16 hh hh8
       % 6
       hh8[ hh8] openhihat[ hh] hh16[ hh hh hh]
       % 7
@@ -305,10 +311,11 @@
       % 11
       hh[ hh16 hh hh8] openhihat[ hh16 hh16 hh8]
       % 12
-      openhihat r8 hh16 hh32 hh
+      openhihat r8 hh16\< hh32 hh\!
 
       % 13 // B
-      openhihat8[ hh8 hh hh ] hh16 hh hh8
+      openhihat8[\mp hh8 hh hh ] hh16 hh hh8
+      
       % 14
       openhihat8[ hh16 hh hh8] hh[ hh16 hh hh8]
       % 15
