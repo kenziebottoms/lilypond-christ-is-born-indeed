@@ -141,9 +141,8 @@
       \repeat unfold 5 { g,-. d'-. a }
       \repeat unfold 3 { g-.[ d'-.] r }
       % 26
-      \repeat unfold 2 { g,-.[ d'-. a] }
-      % 27
-      R1 * 8/8
+      \repeat unfold 4 { g,-.[ d'-. a] }
+      g-. r
       \break
 
       % 28 // D
