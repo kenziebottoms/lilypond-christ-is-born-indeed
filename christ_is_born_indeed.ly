@@ -366,13 +366,41 @@
       % 26
       openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh8]
       % 27
+      \time 8/8
       openhihat[ hh16 hh hh8] openhihat[ hh16 hh hh hh] hh[ hh hh hh]
       \break
 
       % 28 // D
+      \time 6/8
       openhihat4 r2
       % 29
-      R1 * 6/8 * 3
+      R1 * 6/8 * 11
+      \break
+
+      % 40 // E
+      r2 r8 hh16\< hh32 hh\!
+      % 41
+      openhihat8[ hh16 hh hh8 hh] openhihat8[ hh]
+      % 42
+      openhihat8[ hh16 hh hh hh] openhihat8[ hh16 hh openhihat8]
+      % 43
+      r8 openhihat8[ hh] openhihat[ hh16 hh hh8]
+      \break
+
+      % 44
+      openhihat8[ hh16 hh hh8] openhihat[ hh] openhihat[
+      % 45
+      hh] openhihat[ hh] openhihat[ hh16 hh hh8]
+      % 46
+      openhihat[ hh16 hh hh8] openhihat[ hh] openhihat[
+      % 47
+      hh] openhihat[ hh] openhihat[ hh16 hh hh hh]
+      \break
+
+      % 48
+      hh8[ hh16 hh] openhihat8[ hh openhihat openhihat]
+      % 49
+      openhihat[ openhihat16 openhihat] openhihat[ openhihat openhihat8] r4
     }
     % End Hi Hat
     
