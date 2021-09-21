@@ -150,19 +150,25 @@
       % 29
       bes-. a-. r bes-. b-. r
       % 30
-      b-. c-. r bes-. b-. r 
+      bes-. b-. r b-. c-. r 
       % 21
-      bes-. b-. r b-. c-. r
+      b-. c-. r c-. cis-. r
       % 32
-      R1 * 6/8 * 4
+      c-. cis-. r cis-. d-. r
+      % 33
+      cis-. d-. r dis-. cis-. r
+      % 34
+      dis-. c-. r d-. c-. r
+      % 35
+      d-. c-. r cis-. b-. r
       \break
       
       % 36
-      dis8-.[ d-.] r2
+      b-. bes-. r b-. bes-. r
       % 37
-      r4. bes8-.[ a-.] r
+      bes-. a-. r bes-. a-. r
       % 38
-      a8-.[ bes-.] r bes-.[ a-.] r
+      a8-. bes-. r bes-. a-. r
       % 39
       a8-.[ bes-.] bes8-.[ a-.] bes8-.[ a-.]
 
@@ -176,6 +182,7 @@
       shortInstrumentName = "A.Fl."
       midiInstrument = #"flute"
     } \relative c' {
+      \key g \major
       R1 * 6/8 * 11
       % 12
       R1 * 3/8
