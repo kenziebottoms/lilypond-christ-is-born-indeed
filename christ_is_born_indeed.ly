@@ -248,8 +248,25 @@
       % 40 // E
       d2.
       r4. d~
+      % 42
       d2.~
-      d4. e
+      d4. e~
+      \break
+      
+      % 44
+      e2.
+      r4. fis~
+      % 46
+      fis f~
+      f r
+      \break
+
+      % 48
+      dis2.(
+      d)~
+      % 50
+      d~
+      d4. r
     }
 
     \new Staff \with {
