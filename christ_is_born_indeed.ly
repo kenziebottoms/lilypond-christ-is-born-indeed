@@ -173,7 +173,10 @@
       a8-.[ bes-.] bes8-.[ a-.] bes8-.[ a-.]
 
       % 40 // E
-      \repeat unfold 6 { g8-.[ d'-.] r }
+      \repeat unfold 10 { g8-.[ d'-.] r }
+      \repeat unfold 4 { g,-.[ d'-. a] }
+      % 47
+      g-. r
     }
     % End Flute
 
