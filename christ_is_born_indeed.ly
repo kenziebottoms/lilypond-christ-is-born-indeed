@@ -60,7 +60,7 @@
       % 19
       bes4 bes bes~
       % 20
-      bes4 r b
+      bes8 r4. b4
       % 21
       fis2 r4
       % 22
@@ -247,26 +247,54 @@
 
       % 40 // E
       d2.
-      r4. d~
+      r4. d^~
       % 42
-      d2.~
-      d4. e~
+      <d g,>2.~
+      <d g,>4. <e g,>~
       \break
       
       % 44
-      e2.
-      r4. fis~
-      % 46
-      fis f~
-      f r
+      <e g,>2.~
+      % 45
+      <e g,>4 r8
+      <<
+        \relative {
+          fis'4.~
+          % 46
+          fis( f)~
+          % 47
+          f
+        }
+        \\
+        \relative {
+          a4.~
+          % 46
+          a2.~
+          % 47
+          a4.
+        }
+      >>
+      r4.
       \break
 
-      % 48
-      dis2.(
-      d)~
+      <<
+        \relative {
+          % 48
+          dis'2.(
+          % 49
+          d)~
+        }
+        \\
+        \relative {
+          % 48
+          g4.( gis~
+          % 49
+          gis2.)
+        }
+      >>
       % 50
-      d~
-      d4. r
+      <d g,>~
+      <d g,>4. r
     }
 
     \new Staff \with {
