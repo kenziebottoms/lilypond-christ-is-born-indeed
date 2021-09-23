@@ -148,27 +148,27 @@
       % 28 // D
       b8-. a-. r bes-. a-. r
       % 29
-      bes-. a-. r bes-. b-. r
+      bes-. a-. r b-. c-. r
       % 30
-      bes-. b-. r b-. c-. r 
+      b-. c-. r b-. c-. r 
       % 21
-      b-. c-. r c-. cis-. r
+      c-. cis-. r c-. cis-. r
       % 32
       c-. cis-. r cis-. d-. r
       % 33
-      cis-. d-. r dis-. cis-. r
+      cis-. d-. r dis-. d-. r
       % 34
-      dis-. c-. r d-. c-. r
+      dis-. d-. r d-. c-. r
       % 35
-      d-. c-. r cis-. b-. r
+      d-. c-. r c-. b-. r
       \break
       
       % 36
-      b-. bes-. r b-. bes-. r
+      c-. b-. r b-. bes-. r
       % 37
-      bes-. a-. r bes-. a-. r
+      b-. bes-. r a-. bes-. r
       % 38
-      a8-. bes-. r bes-. a-. r
+      a-. bes-. r bes-. a-. r
       % 39
       a8-.[ bes-.] bes8-.[ a-.] bes8-.[ a-.]
 
