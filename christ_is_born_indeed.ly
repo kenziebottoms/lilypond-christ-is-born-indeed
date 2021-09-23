@@ -148,7 +148,7 @@
       % 28 // D
       b8-. a-. r bes-. a-. r
       % 29
-      bes-. a-. r b-. c-. r
+      bes-. a-. r bes-. b-. r
       % 30
       b-. c-. r b-. c-. r 
       % 21
@@ -166,7 +166,7 @@
       % 36
       c-. b-. r b-. bes-. r
       % 37
-      b-. bes-. r a-. bes-. r
+      b-. bes-. r bes-. a-. r
       % 38
       a-. bes-. r bes-. a-. r
       % 39
