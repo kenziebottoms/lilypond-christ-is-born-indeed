@@ -256,25 +256,11 @@
       % 44
       <e g,>2.~
       % 45
-      <e g,>4 r8
-      <<
-        \relative {
-          fis'4.~
-          % 46
-          fis( f)~
-          % 47
-          f
-        }
-        \\
-        \relative {
-          a4.~
-          % 46
-          a2.~
-          % 47
-          a4.
-        }
-      >>
-      r4.
+      <e g,>4 r8 <fis a,>4.~
+      % 46
+      <fis a,>4. <f bes,>~
+      % 47
+      <f bes,> r4.
       \break
 
       <<
@@ -287,9 +273,9 @@
         \\
         \relative {
           % 48
-          g4.( gis~
+          g4.( bes~
           % 49
-          gis2.)
+          bes2.)
         }
       >>
       % 50
@@ -367,7 +353,7 @@
     } \drummode {
       \repeat unfold 4 { R2. }
       % 5 // A
-      r8\p hihat8[ hh hh] hh16 hh hh8
+      r8\ppp hihat8[ hh hh] hh16 hh hh8
       % 6
       hh8[ hh8] openhihat[ hh] hh16[ hh hh hh]
       % 7
@@ -426,9 +412,9 @@
       \break
 
       % 40 // E
-      r2 r8 hh16\< hh32 hh\!
+      r2 r8 hh16\<\ppp hh32 hh\!
       % 41
-      openhihat8[ hh16 hh hh8 hh] openhihat8[ hh]
+      openhihat8[\pp hh16 hh hh8 hh] openhihat8[ hh]
       % 42
       openhihat8[ hh16 hh hh hh] openhihat8[ hh16 hh openhihat8]
       % 43
@@ -466,7 +452,7 @@
       % 27
       R1 * 8/8
       % 28
-      wbl8->[ wbl16 wbl wbl8] wbl-> wbl wbl
+      wbl8->[\mp wbl16 wbl wbl8] wbl-> wbl wbl
       % 29
       wbl->[ wbl16 wbl wbl wbl] wbl8-> wbl16 wbl wbl wbl
       % 30
@@ -492,5 +478,29 @@
       wbl16[-> wbl wbl wbl] wbl->[ wbl wbl wbl] wbl[-> wbl wbl wbl]
     }
     % End Toms
+
+    \new DrumStaff \with {
+      instrumentName = "Bass Drum"
+      shortInstrumentName = "B.D."
+    } \drummode {
+      R1 * 6/8 * 11
+      % 12
+      R1 * 3/8
+      
+      % 13 // B
+      R1 * 6/8 * 14
+
+      % 27
+      R1 * 8/8
+
+      % 28 // D
+      R1 * 6/8 * 12
+
+      % 40 // E
+      R1 * 6/8 * 9
+      % 49
+      r8 bd4 bd4 r8
+    }
+    % End Bass Drum
   >>
 }
