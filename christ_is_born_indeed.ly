@@ -174,17 +174,17 @@
 
       % 40 // E
       \repeat unfold 10 { g8-.[ d'-.] r }
-      \repeat unfold 4 { g,-.[ d'-. a] }
+      \repeat unfold 4 { g,-.[ d'-. a-.] }
       % 47
       g-. r4
       \repeat unfold 3 { g8-.[ d'-.] r }
       % 49
-      \repeat unfold 5 { g,-.[ d'-. a] }
+      \repeat unfold 5 { g,-.[ d'-. a-.] }
       \repeat unfold 4 { g8-.[ d'-.] r }
-      \repeat unfold 4 { g,-.[ d'-. a] }
+      \repeat unfold 4 { g,-.[ d'-. a-.] }
       \repeat unfold 3 { g8-.[ d'-.] r }
       % 57
-      \repeat unfold 4 { g,-.[ d'-. a] }
+      \repeat unfold 4 { g,-.[ d'-. a-.] }
       % 59
       \repeat unfold 2 { g8-.[ d'-.] r }
     }
