@@ -257,7 +257,7 @@
 
       % 40 // E
       d2.
-      r4. d^~
+      r4. d^~\p
       % 42
       <d g,>2.~
       <d g,>4. <e g,>~
@@ -276,24 +276,30 @@
       <<
         \relative {
           % 48
-          dis'2.(
+          dis'2.
           % 49
-          d)~
+          d~
+          % 50
+          d~
+          % 51
+          d4.
         }
         \\
         \relative {
           % 48
-          g4.( bes~
+          g4. bes~
           % 49
-          bes2.)
+          bes2.
+          % 50
+          g~
+          % 51
+          g4.
         }
       >>
-      % 50
-      <d g,>~
-      % 51
-      <d g,>4. r
+      r4.
       \break
     }
+    %  End Alto Flute
 
     \new Staff \with {
       instrumentName = "Violin"
@@ -511,7 +517,7 @@
       % 40 // E
       R1 * 6/8 * 9
       % 49
-      r8 bd4 bd4 r8
+      r8 bd4-> bd4-> r8
     }
     % End Bass Drum
   >>
