@@ -150,9 +150,9 @@
       % 29
       bes-. a-. r bes-. b-. r
       % 30
-      b-. c-. r b-. c-. r 
-      % 21
-      c-. cis-. r c-. cis-. r
+      bes-. b-. r b-. c-. r 
+      % 31
+      b-. c-. r c-. cis-. r
       % 32
       c-. cis-. r cis-. d-. r
       % 33
