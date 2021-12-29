@@ -191,9 +191,9 @@
     % End Flute
 
     \new Staff \with {
-      instrumentName = "Alto Flute"
-      shortInstrumentName = "A.Fl."
-      midiInstrument = #"flute"
+      instrumentName = "Alto Recorder"
+      shortInstrumentName = "A. R."
+      midiInstrument = #"recorder"
     } \relative c' {
       \key g \major
       R1 * 6/8 * 11
@@ -300,7 +300,119 @@
       r4.
       \break
     }
-    %  End Alto Flute
+    %  End Alto Recorder
+    
+    \new Staff \with {
+      instrumentName = "Tenor Recorder"
+      shortInstrumentName = "T. R."
+      midiInstrument = #"recorder"
+    } \relative c' {
+      \key g \major
+      R1 * 6/8 * 11
+      % 12
+      R1 * 3/8
+      
+      % 13 // B
+      \time 6/8
+      d2.~\ppp
+      d
+      % 15
+      r4. e4.->~
+      e2.~
+
+      % 17
+      e4.( ees
+      % 18 // C
+      d2.)~
+      % 19
+      d2.
+      % 20
+      r4. e~
+      
+      % 21
+      e2.
+      % 22
+      r4. fis4.~
+      % 23
+      fis4. f~
+      % 24
+      f4. r
+
+      % 25
+      dis4.( d
+      d2.)~
+
+      % 27
+      \time 8/8
+      d4. dis4. d4~
+
+      % 28 // D
+      d4. dis~
+      % 29
+      dis4. e~
+      % 30
+      e f~
+      % 31
+      f fis~
+
+      % 32
+      fis g~
+      g fis~
+      fis f~
+      f e~
+
+      % 36
+      e dis~
+      dis d~
+      d dis~
+      dis d~
+
+      % 40 // E
+      d2.
+      r4. d^~\p
+      % 42
+      <d g,>2.~
+      <d g,>4. <e g,>~
+      \break
+      
+      % 44
+      <e g,>2.~
+      % 45
+      <e g,>4 r8 <fis a,>4.~
+      % 46
+      <fis a,>4. <f bes,>~
+      % 47
+      <f bes,> r4.
+      \break
+
+      % 48
+      <<
+        \relative {
+          % 48
+          dis'2.
+          % 49
+          d~
+          % 50
+          d~
+          % 51
+          d4.
+        }
+        \\
+        \relative {
+          % 48
+          g4. bes~
+          % 49
+          a2.
+          % 50
+          g~
+          % 51
+          g4.
+        }
+      >>
+      r4.
+      \break
+    }
+    %  End Tenor Recorder
 
     \new Staff \with {
       instrumentName = "Violin"
