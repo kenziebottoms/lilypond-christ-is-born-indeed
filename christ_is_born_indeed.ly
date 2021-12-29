@@ -274,14 +274,9 @@
       \break
 
       % 48
-      dis'2.
-      % 49
-      d~
-      % 50
-      d~
+      dis2. d~ d~
       % 51
-      d4.
-      r4.
+      d4. r4.
       \break
     }
     %  End Tenor Recorder
@@ -300,7 +295,26 @@
       
       % 13 // B
       \time 6/8
-      R1 * 6/8 * 14
+      g2.~ g
+      % 15
+      r4. g->~
+      % 16
+      g2.~ g~
+      
+      % 18 // C
+      g g->
+      % 20
+      r4. g~
+      % 21
+      g2.
+      % 22
+      r4. a4.~
+      % 23
+      a bes~
+      % 24
+      bes r
+
+      R1 * 6/8 * 2
       % 27
       \time 8/8
       R1 * 8/8
@@ -310,7 +324,9 @@
       R1 * 6/8
 
       % 29
-      g2.\ppp a bes b bes a g fis
+      r4. g4.\pppp
+      % 30
+      a2. bes b bes a g fis
 
       % 37
       R1 * 6/8 * 3
@@ -336,12 +352,9 @@
       % 48
       g4. bes~
       % 49
-      a2.
-      % 50
-      g~
+      a2. g~
       % 51
-      g4.
-      r4.
+      g4. r4.
       \break
     }
     %  End Bass Recorder
