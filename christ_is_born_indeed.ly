@@ -191,8 +191,8 @@
     % End Flute
 
     \new Staff \with {
-      instrumentName = "Alto Recorder"
-      shortInstrumentName = "A. R."
+      instrumentName = "Tenor Recorder"
+      shortInstrumentName = "T. R."
       midiInstrument = #"recorder"
     } \relative c' {
       \key g \major
@@ -274,39 +274,24 @@
       \break
 
       % 48
-      <<
-        \relative {
-          % 48
-          dis'2.
-          % 49
-          d~
-          % 50
-          d~
-          % 51
-          d4.
-        }
-        \\
-        \relative {
-          % 48
-          g4. bes~
-          % 49
-          a2.
-          % 50
-          g~
-          % 51
-          g4.
-        }
-      >>
+      dis'2.
+      % 49
+      d~
+      % 50
+      d~
+      % 51
+      d4.
       r4.
       \break
     }
-    %  End Alto Recorder
+    %  End Tenor Recorder
     
     \new Staff \with {
-      instrumentName = "Tenor Recorder"
-      shortInstrumentName = "T. R."
+      instrumentName = "Bass Recorder"
+      shortInstrumentName = "B. R."
       midiInstrument = #"recorder"
-    } \relative c' {
+    } \relative c {
+      \clef bass
       \key g \major
       R1 * 6/8 * 11
       % 12
@@ -325,51 +310,35 @@
       R1 * 6/8 * 12
 
       % 40 // E
-      d2.
-      r4. d^~\p
+      R1 * 6/8 * 2
+
       % 42
-      <d g,>2.~
-      <d g,>4. <e g,>~
+      g2.~
+      g4. g~
       \break
       
       % 44
-      <e g,>2.~
+      g2.~
       % 45
-      <e g,>4 r8 <fis a,>4.~
+      g4 r8 a4.~
       % 46
-      <fis a,>4. <f bes,>~
+      a4. bes~
       % 47
-      <f bes,> r4.
+      bes r4.
       \break
 
       % 48
-      <<
-        \relative {
-          % 48
-          dis'2.
-          % 49
-          d~
-          % 50
-          d~
-          % 51
-          d4.
-        }
-        \\
-        \relative {
-          % 48
-          g4. bes~
-          % 49
-          a2.
-          % 50
-          g~
-          % 51
-          g4.
-        }
-      >>
+      g4. bes~
+      % 49
+      a2.
+      % 50
+      g~
+      % 51
+      g4.
       r4.
       \break
     }
-    %  End Tenor Recorder
+    %  End Bass Recorder
 
     \new Staff \with {
       instrumentName = "Violin"
