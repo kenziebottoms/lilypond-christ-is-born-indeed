@@ -290,7 +290,7 @@
       instrumentName = "Bass Recorder"
       shortInstrumentName = "B. R."
       midiInstrument = #"recorder"
-    } \relative c {
+    } \relative c' {
       \clef bass
       \key g \major
       R1 * 6/8 * 11
@@ -307,7 +307,13 @@
 
       % 28 // D
       \time 6/8
-      R1 * 6/8 * 12
+      R1 * 6/8
+
+      % 29
+      g2.\ppp a bes b bes a g fis
+
+      % 37
+      R1 * 6/8 * 3
 
       % 40 // E
       R1 * 6/8 * 2
