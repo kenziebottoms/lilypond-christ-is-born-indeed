@@ -259,18 +259,18 @@
       d2.
       r4. d^~\p
       % 42
-      <d g,>2.~
-      <d g,>4. <e g,>~
+      d2.~
+      d4. e~
       \break
       
       % 44
-      <e g,>2.~
+      e2.~
       % 45
-      <e g,>4 r8 <fis a,>4.~
+      e4 r8 fis4.~
       % 46
-      <fis a,>4. <f bes,>~
+      fis4. f~
       % 47
-      <f bes,> r4.
+      f r4.
       \break
 
       % 48
