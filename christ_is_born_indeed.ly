@@ -310,62 +310,19 @@
       \key g \major
       R1 * 6/8 * 11
       % 12
+      \time 3/8
       R1 * 3/8
       
       % 13 // B
       \time 6/8
-      d2.~\ppp
-      d
-      % 15
-      r4. e4.->~
-      e2.~
-
-      % 17
-      e4.( ees
-      % 18 // C
-      d2.)~
-      % 19
-      d2.
-      % 20
-      r4. e~
-      
-      % 21
-      e2.
-      % 22
-      r4. fis4.~
-      % 23
-      fis4. f~
-      % 24
-      f4. r
-
-      % 25
-      dis4.( d
-      d2.)~
-
+      R1 * 6/8 * 14
       % 27
       \time 8/8
-      d4. dis4. d4~
+      R1 * 8/8
 
       % 28 // D
-      d4. dis~
-      % 29
-      dis4. e~
-      % 30
-      e f~
-      % 31
-      f fis~
-
-      % 32
-      fis g~
-      g fis~
-      fis f~
-      f e~
-
-      % 36
-      e dis~
-      dis d~
-      d dis~
-      dis d~
+      \time 6/8
+      R1 * 6/8 * 12
 
       % 40 // E
       d2.
