@@ -4,9 +4,22 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "lilypond",
+      "label": "lilypond_mac",
       "type": "shell",
       "command": "/Applications/LilyPond.app/Contents/Resources/bin/lilypond christ_is_born_indeed.ly",
+      "group": "build",
+      "presentation": {
+        "echo": true,
+        "reveal": "never",
+        "focus": false,
+        "panel": "dedicated"
+      },
+      "problemMatcher": []
+    },
+    {
+      "label": "lilypond_ubuntu",
+      "type": "shell",
+      "command": "/usr/bin/lilypond christ_is_born_indeed.ly",
       "group": {
         "kind": "build",
         "isDefault": true
